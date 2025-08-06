@@ -44,6 +44,20 @@ All zero scores
 
 "Equal distribution due to lack of score data"
 
+
+📁 Project Structure
+.
+├── main.js              # Main script to read input, process, and print result
+├── src/
+│   ├── allocator.js         # Core logic for allocation and justification
+│   └── utils.js             # JSON file read/write helpers
+├── sampleInput.json         # Input data for testing
+├── sampleOutput.json        # Generated output
+└── test/
+    ├── allocator.test.js    # Unit tests
+    └── jest.config.js       # Tells Jest to run in Node.js
+
+
 ### 🧾 Sample Input
 ```json
 {
@@ -73,55 +87,4 @@ All zero scores
 }
 
 
-📁 Project Structure
-.
-├── main.js              # Main script to read input, process, and print result
-├── src/
-│   ├── allocator.js         # Core logic for allocation and justification
-│   └── utils.js             # JSON file read/write helpers
-├── sampleInput.json         # Input data for testing
-├── sampleOutput.json        # Generated output
-└── test/
-    |___ allocator.test.js   # Unit tests
-    |___jest.config.js       # Tells Jest to run in Node.js
-
-
-
-
-🚀 How to Run
-
-1.Install Node.js
-
-2.Run the script: node main.js
-
-3.Output will be generated in sampleOutput.json and logged in the terminal.
-
-🧪 Testing
-
-Basic test included in allocator.test.js to validate:
-
-Correct total allocation
-
-Justification generation
-
-Run using:  npm test
-
-💡 Why This Project?
-
-1.This small yet effective system showcases:
-
-2.Practical application of business logic in code
-
-3.Fairness through scoring and conditional justifications
-
-4.Clean code, edge case handling, and testability
-
-
-📝 Notes
-
-Handles missing/null values gracefully
-
-Adjusts rounding discrepancies automatically
-
-Designed to be readable and maintainable
 
