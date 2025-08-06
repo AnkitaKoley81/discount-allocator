@@ -1,0 +1,40 @@
+{
+  "allocations": [
+    {
+      "id": "C1",
+      "name": "Maya",
+      "assignedDiscount": 3873,
+      "justification": "Consistently high performance and long-term contribution"
+    },
+    {
+      "id": "C2",
+      "name": "Ravi",
+      "assignedDiscount": 2943,
+      "justification": "Moderate performance with potential for growth"
+    },
+    {
+      "id": "C3",
+      "name": "Ankit",
+      "assignedDiscount": 2184,
+      "justification": "Moderate performance with potential for growth"
+    },
+    {
+      "id": "C4",
+      "name": "Pooja",
+      "assignedDiscount": 1614,
+      "justification": "Needs improvement and closer performance tracking"
+    },
+    {
+      "id": "C5",
+      "name": "Sameer",
+      "assignedDiscount": 3892,
+      "justification": "Consistently high performance and long-term contribution"
+    },
+    {
+      "id": "C6",
+      "name": "Divya",
+      "assignedDiscount": 3494,
+      "justification": "Moderate performance with potential for growth"
+    }
+  ]
+}

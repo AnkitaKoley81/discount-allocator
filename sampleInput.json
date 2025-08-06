@@ -1,0 +1,53 @@
+{
+  "siteKitty": 18000,
+  "salesAgents": [
+    {
+      "id": "C1",
+      "name": "Maya",
+      "performanceScore": 90,
+      "seniorityMonths": 24,
+      "targetAchievedPercent": 80,
+      "activeClients": 10
+    },
+    {
+      "id": "C2",
+      "name": "Ravi",
+      "performanceScore": 60,
+      "seniorityMonths": 12,
+      "targetAchievedPercent": 75,
+      "activeClients": 8
+    },
+    {
+      "id": "C3",
+      "name": "Ankit",
+      "performanceScore": 40,
+      "seniorityMonths": 6,
+      "targetAchievedPercent": 65,
+      "activeClients": 4
+    },
+    {
+      "id": "C4",
+      "name": "Pooja",
+      "performanceScore": 30,
+      "seniorityMonths": 3,
+      "targetAchievedPercent": 50,
+      "activeClients": 2
+    },
+    {
+      "id": "C5",
+      "name": "Sameer",
+      "performanceScore": 85,
+      "seniorityMonths": 18,
+      "targetAchievedPercent": 90,
+      "activeClients": 12
+    },
+    {
+      "id": "C6",
+      "name": "Divya",
+      "performanceScore": 70,
+      "seniorityMonths": 20,
+      "targetAchievedPercent": 85,
+      "activeClients": 9
+    }
+  ]
+}
