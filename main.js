@@ -5,9 +5,9 @@ function main() {
   let rawData;
   try {
     rawData = fs.readFileSync('./sampleInput.json', 'utf-8');
-    console.log("✅ File read successfully", rawData);
+    console.log(" File read successfully", rawData);
   } catch (err) {
-    console.error("❌ Failed to read file:", err.message);
+    console.error(" Failed to read file:", err.message);
     return;
   }
 
@@ -37,7 +37,7 @@ function main() {
   const result = allocateDiscounts(agents, kitty);
 
   fs.writeFileSync('sampleOutput.json', JSON.stringify(result, null, 2));
-  console.log("✅ Discount Allocation Done\n");
+  console.log(" Discount Allocation Done\n");
   console.table(result.allocations, ['id', 'name', 'assignedDiscount', 'justification']);
 }
 

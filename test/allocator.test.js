@@ -12,7 +12,7 @@ test('should allocate discounts correctly and assign justifications', () => {
   console.log('Result:', result);
 
   const total = result.allocations.reduce((sum, a) => sum + a.assignedDiscount, 0);
-  expect(total).toBe(100000); // ✅ total matches kitty
+  expect(total).toBe(100000); 
 
   // Optional: dynamic justification assignment logic
   result.allocations.forEach(agent => {
