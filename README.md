@@ -44,7 +44,8 @@ All zero scores
 
 "Equal distribution due to lack of score data"
 
-🧾 Sample Input----------->
+### 🧾 Sample Input
+```json
 {
   "siteKitty": 18000,
   "salesAgents": [
@@ -56,11 +57,10 @@ All zero scores
       "targetAchievedPercent": 80,
       "activeClients": 10
     }
-    // More agents...
   ]
 }
 
-✅ Sample Output------------>
+✅ SAMPLE OUTPUT
 {
   "allocations": [
     {
@@ -69,9 +69,10 @@ All zero scores
       "assignedDiscount": 3560,
       "justification": "Consistently high performance and long-term contribution"
     }
-    // More agents...
   ]
 }
+
+
 📁 Project Structure
 .
 ├── main.js              # Main script to read input, process, and print result
@@ -83,6 +84,8 @@ All zero scores
 └── test/
     |___ allocator.test.js   # Unit tests
     |___jest.config.js       # Tells Jest to run in Node.js
+
+
 
 
 🚀 How to Run
