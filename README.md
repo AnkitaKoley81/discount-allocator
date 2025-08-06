@@ -125,20 +125,5 @@ Designed to be readable and maintainable
   ]
 }
 
-📁 Project Structure
-``` 
-.
-├── main.js              # Main script to read input, process, and print result
-├── src/
-│   ├── allocator.js         # Core logic for allocation and justification
-│   └── utils.js             # JSON file read/write helpers
-├── sampleInput.json         # Input data for testing
-├── sampleOutput.json        # Generated output
-└── test/
-    ├── allocator.test.js    # Unit tests
-    └── jest.config.js       # Tells Jest to run in Node.js
-```
-
-
 
 
